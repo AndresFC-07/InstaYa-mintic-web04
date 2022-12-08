@@ -11,18 +11,18 @@ import {
 
 const initialValues = {
 	isFragile: true,
-	width: '1',
-	height: '1',
-	depth: '1',
-	weight: '1',
-	dueDate: '2022-12-01',
+	width: '3',
+	height: '3',
+	depth: '3',
+	weight: '3',
+	dueDate: '2022-12-07',
 	dueHour: '12:00:00',
 	state: 'guardado',
-	fromCity: 'Barranquilla',
+	fromCity: 'Jamundi',
 	fromAddress: 'Cra. 45 #53-127',
-	toCity: 'Santa Marta',
+	toCity: 'Medellin',
 	toAddress: 'Cl. 21 #2A-05',
-	toOwner: 'Pepé Santos',
+	toOwner: 'Daniela Flórez',
 	toOwnerId: '12345678901',
 };
 
@@ -160,7 +160,7 @@ export function NewRequestForm() {
 					onError={toggleFieldError}
 					inputProps={{
 						name: 'toOwner',
-						placeholder: 'Juanito Perez',
+						placeholder: 'Andrés Flórez',
 						required: true,
 					}}
 				/>
